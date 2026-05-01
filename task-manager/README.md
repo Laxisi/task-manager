@@ -1,79 +1,63 @@
-# TaskZen | Team Collaborative Task Manager ✨
+Task Manager Application
 
+This is a full stack Task Manager web application where users can create, manage and track tasks easily. It helps teams or individuals organize their work with different task stages and priorities.
 
-The Cloud-Based Task Manager is a web application designed to streamline team task management. Built using the MERN stack (MongoDB, Express.js, React, and Node.js), this platform provides a user-friendly interface for efficient task assignment, tracking, and collaboration. The application caters to administrators and regular users, offering comprehensive features to enhance productivity and organization.
+Features:
+- Create new tasks
+- Assign tasks to team members
+- Set task priority (High, Medium, Normal, Low)
+- Set task stages (Todo, In Progress, Completed)
+- Upload files/assets with tasks
+- View dashboard with task statistics
+- Track activities of each task
+- Trash and restore tasks
 
+Tech Stack:
+Frontend:
+- React (Vite)
+- Tailwind CSS
+- Redux Toolkit
 
+Backend:
+- Node.js
+- Express.js
+- MongoDB (Atlas)
 
-### Why/Problem?
-In a dynamic work environment, effective task management is crucial for team success. Traditional methods of task tracking through spreadsheets or manual systems can be cumbersome and prone to errors. The Cloud-Based Task Manager aims to address these challenges by providing a centralized platform for task management, enabling seamless collaboration and improved workflow efficiency.
+Other Tools:
+- Firebase (for file upload)
+- Railway (for deployment)
 
+How to Run Project:
 
+1. Clone the repository
+2. Open project in VS Code
 
-### **Background**:
-With the rise of remote work and dispersed teams, there is a growing need for tools that facilitate effective communication and task coordination. The Cloud-Based Task Manager addresses this need by leveraging modern web technologies to create an intuitive and responsive task management solution. The MERN stack ensures scalability, while the integration of Redux Toolkit, Headless UI, and Tailwind CSS enhances user experience and performance.
+Frontend:
+cd client
+npm install
+npm run dev
 
+Backend:
+cd server
+npm install
+npm start
 
-### 
-## **Admin Features:**
-1. **User Management:**
-    - Create admin accounts.
-    - Add and manage team members.
+Make sure to add .env file for:
+- MongoDB connection
+- Firebase config
+- JWT secret
 
-2. **Task Assignment:**
-    - Assign tasks to individual or multiple users.
-    - Update task details and status.
+Project Structure:
+- client → Frontend code
+- server → Backend APIs
+- controllers → API logic
+- models → Database schema
 
-3. **Task Properties:**
-    - Label tasks as todo, in progress, or completed.
-    - Assign priority levels (high, medium, normal, low).
-    - Add and manage sub-tasks.
+Future Improvements:
+- Add authentication UI improvements
+- Add notifications UI
+- Improve dashboard charts
+- Mobile responsiveness
 
-4. **Asset Management:**
-    - Upload task assets, such as images.
-
-5. **User Account Control:**
-    - Disable or activate user accounts.
-    - Permanently delete or trash tasks.
-
-
-## **User Features:**
-1. **Task Interaction:**
-    - Change task status (in progress or completed).
-    - View detailed task information.
-
-2. **Communication:**
-    - Add comments or chat to task activities.
-
-
-## **General Features:**
-1. **Authentication and Authorization:**
-    - User login with secure authentication.
-    - Role-based access control.
-
-2. **Profile Management:**
-    - Update user profiles.
-
-3. **Password Management:**
-    - Change passwords securely.
-
-4. **Dashboard:**
-    - Provide a summary of user activities.
-    - Filter tasks into todo, in progress, or completed.
-
-
-## **Technologies Used:**
-- **Frontend:**
-    - React (Vite)
-    - Redux Toolkit for State Management
-    - Headless UI
-    - Tailwind CSS
-
-
-- **Backend:**
-    - Node.js with Express.js
-    
-- **Database:**
-    - MongoDB for efficient and scalable data storage.
-
-
+Author:
+Laxmi Singh
